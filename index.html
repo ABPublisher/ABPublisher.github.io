@@ -52,14 +52,21 @@
     }
 
     .brandmark{
-      width:44px; height:44px;
-      border-radius: 14px;
-      background: linear-gradient(135deg, var(--accent2), var(--accent));
-      box-shadow: var(--shadow);
-      display:grid;
-      place-items:center;
-      flex: 0 0 auto;
-    }
+  width:70px;
+  height:70px;
+  border-radius:18px;
+  background:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow: var(--shadow);
+}
+
+.brandmark img{
+  width:55px;
+  height:55px;
+  object-fit:contain;
+}
 
     .brandname{
       font-weight: 800;
@@ -216,7 +223,9 @@
   <div class="wrap">
 
     <div class="top">
-      <div class="brandmark" aria-hidden="true"></div>
+      <div class="brandmark">
+  <img src="logo.png" alt="AB Publisher LLC Logo">
+</div>
       <div class="brandname">AB Publisher LLC</div>
     </div>
 
